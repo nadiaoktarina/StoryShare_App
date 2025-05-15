@@ -1,0 +1,115 @@
+{
+  "id": "/#/",
+  "start_url": "/StoryShare_App/#/",
+  "scope": "/StoryShare_App/",
+  "name": "Aplikasi Berbagi Cerita",
+  "short_name": "StoryApp",
+  "description": "Aplikasi berbagi cerita yang memungkinkan seluruh penduduk didunia melakukan sharing kepada publik tentang kegiatan atau event menarik yang yang tiap hari ia lakukan. Dengan aplikasi ini, siapapun bisa berbagi pengalamannya kepada setiap pengguna lain diseluruh dunia",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#d97706",
+  "icons": [
+    {
+      "src": "images/icons/icon-x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/maskable-icon-x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/ShareStoryApp_001.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/ShareStoryApp_002.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/ShareStoryApp_003.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/ShareStoryApp_004.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/ShareStoryApp_005.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/ShareStoryApp_006.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Story",
+      "short_name": "New",
+      "description": "create story now.",
+      "url": "/StoryShare_App/?source=pwa#/tambah",
+      "icons": [
+        {
+          "src": "images/icons/add-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Laporan Tersimpan",
+      "short_name": "Tersimpan",
+      "description": "Lihat daftar laporan tersimpan.",
+      "url": "/StoryShare_App/?source=pwa#/bookmark",
+      "icons": [
+        {
+          "src": "images/icons/bookmark-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
